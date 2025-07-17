@@ -1,0 +1,69 @@
+* {
+box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0px;
+    margin:0px;
+    
+}
+
+body{
+    background-color: #ddd;
+}
+main{
+    background-color: #fff;
+    padding: 100px;
+    width: 70vw;
+    margin: 100px auto 100px auto;
+    margin-top: 0;
+    padding-top: 60px;
+}
+section {
+    border: 1px solid rgb(224, 224, 224);
+    border-left: 0px;
+    border-right: 0px;
+    padding: 50px;
+}
+main > .primeira > h1,
+main > .primeira > p {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+main > .primeira > p {
+    color: #7e7e7e;
+    font-style: italic;
+}
+main > .segunda > h2,
+main > .segunda > p {
+    padding: 10px;
+}
+main > .quarta > h2,
+main > .quarta > p,
+main > .quarta > ul {
+    padding: 10px;
+}
+
+.imagem2 {
+    margin: auto;
+    background-image: url('https://imageio.forbes.com/specials-images/imageserve/6079df1aefccaacf4bf46f54/The-Offspring--2019/960x0.jpg?format=jpg&width=960');
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+}
+.imagem > img {
+}
+.citacao {
+    background-color: #ddd;
+    padding: 40px;
+    margin: 10px;
+}
+.citacao > h2 {
+    width: 300px;
+}
+.citacao > p {
+    font-style: italic;
+    padding: 10px;
+}
